@@ -26,14 +26,15 @@ addon | version | maintainers | summary
 [crm_industry](crm_industry/) | 15.0.1.1.1 |  | Link leads/opportunities to industries
 [crm_lead_code](crm_lead_code/) | 15.0.1.0.0 |  | Sequential Code for Leads / Opportunities
 [crm_lead_firstname](crm_lead_firstname/) | 15.0.1.0.1 |  | Specify split names for contacts in leads
-[crm_lead_vat](crm_lead_vat/) | 15.0.1.0.0 |  | Add VAT field to leads
+[crm_lead_vat](crm_lead_vat/) | 15.0.1.1.0 |  | Add VAT field to leads
 [crm_location](crm_location/) | 15.0.1.0.2 |  | CRM location
 [crm_multicompany_reporting_currency](crm_multicompany_reporting_currency/) | 15.0.1.0.3 | [![yankinmax](https://github.com/yankinmax.png?size=30px)](https://github.com/yankinmax) | Adds Amount in multicompany reporting currency to CRM Lead
-[crm_partner_assign](crm_partner_assign/) | 15.0.0.1.1 | [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | Assign a Partner to an Opportunity/Lead/Partner to indicate Partnership
+[crm_partner_assign](crm_partner_assign/) | 15.0.0.2.0 | [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | Assign a Partner to an Opportunity/Lead/Partner to indicate Partnership
 [crm_phonecall](crm_phonecall/) | 15.0.1.1.0 |  | CRM Phone Calls
 [crm_phonecall_planner](crm_phonecall_planner/) | 15.0.1.0.0 |  | Schedule phone calls according to some criteria
 [crm_phonecall_summary_predefined](crm_phonecall_summary_predefined/) | 15.0.1.0.0 |  | Allows to choose from a defined summary list
 [crm_project](crm_project/) | 15.0.1.0.2 |  | Create Tasks from Leads/Opportunities
+[crm_project_task](crm_project_task/) | 15.0.1.1.0 | [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Create tasks from lead or opportunity
 [crm_salesperson_planner](crm_salesperson_planner/) | 15.0.1.0.0 |  | Crm Salesperson Planner
 [crm_salesperson_planner_sale](crm_salesperson_planner_sale/) | 15.0.1.0.0 |  | Crm Salesperson Planner Sale
 [crm_security_group](crm_security_group/) | 15.0.1.2.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Add new group in Sales to show only CRM
