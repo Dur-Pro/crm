@@ -25,6 +25,11 @@
     "category": "Customer Relationship Management",
     "author": "Tecnativa, AvanzOSC, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/crm",
+    "description": """
+Sequential Code for Leads / Opportunities
+=========================================
+This module adds a sequence code to leads / opportunities.
+    """,
     "license": "AGPL-3",
     "depends": ["crm"],
     "data": ["data/lead_sequence.xml", "views/crm_lead_view.xml"],

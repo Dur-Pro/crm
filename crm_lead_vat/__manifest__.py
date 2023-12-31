@@ -11,6 +11,12 @@
     "maintainers": ["EmilioPascual"],
     "license": "AGPL-3",
     "application": False,
+    "description": """
+VAT in leads
+============
+This module adds VAT field to leads, so you can specify VAT of the contact
+in leads.
+    """,
     "installable": True,
     "depends": ["crm"],
     "data": ["views/crm_lead_views.xml"],
