@@ -4,13 +4,23 @@
 from odoo.tests import Form, common
 
 
-class TestCrmPhoneCall(common.SavepointCase):
+class TestCrmPhoneCall(common.TransactionCase):
     """Unit test case of the Crm Phonecall module."""
 
     @classmethod
     def setUpClass(cls):
         """Created required data."""
         super().setUpClass()
+        cls.env = cls.env(
+            context=dict(
+                cls.env.context,
+                mail_create_nolog=True,
+                mail_create_nosubscribe=True,
+                mail_notrack=True,
+                no_reset_password=True,
+                tracking_disable=True,
+            )
+        )
         cls.company = cls.env.ref("base.main_company")
         partner_obj = cls.env["res.partner"]
         cls.campaign1 = cls.env["utm.campaign"].create({"name": "campaign 1"})

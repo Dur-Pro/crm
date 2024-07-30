@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 02:38+0000\n"
-"PO-Revision-Date: 2023-10-11 08:38+0000\n"
+"PO-Revision-Date: 2024-02-12 10:36+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
 "Language: it\n"
@@ -405,7 +405,6 @@ msgstr "Se selezionata, nuovi messaggi richiedono attenzione."
 
 #. module: crm_phonecall
 #: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__message_has_error
-#: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Se selezionata, alcuni messaggi hanno un errore di consegna."
 
@@ -443,7 +442,7 @@ msgstr "Ultima azione"
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall____last_update
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall_report____last_update
 msgid "Last Modified on"
-msgstr "Ultima Modifica il"
+msgstr "Ultima modifica il"
 
 #. module: crm_phonecall
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall2phonecall__write_uid
@@ -777,11 +776,6 @@ msgid "Responsible"
 msgstr "Responsabile"
 
 #. module: crm_phonecall
-#: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr "Errore consegna SMS"
-
-#. module: crm_phonecall
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall2phonecall__team_id
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__team_id
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_crm_case_phonecalls_filter
@@ -856,7 +850,7 @@ msgstr "Stato"
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall_report__state
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_report_crm_phonecall_filter
 msgid "Status"
-msgstr "Stati"
+msgstr "Stato"
 
 #. module: crm_phonecall
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall2phonecall__tag_ids
@@ -964,6 +958,9 @@ msgstr ""
 "Si può utilizzare la funzionalità di importazione per importare in massa una "
 "nuova lista\n"
 "            di prospettive di qualificazione."
+
+#~ msgid "SMS Delivery error"
+#~ msgstr "Errore consegna SMS"
 
 #~ msgid "<b> min(s)</b>"
 #~ msgstr "<b> minuto(i)</b>"

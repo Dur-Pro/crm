@@ -7,14 +7,24 @@ from datetime import datetime, timedelta
 
 from odoo import fields
 from odoo.exceptions import ValidationError
-from odoo.tests.common import SavepointCase
+from odoo.tests.common import TransactionCase
 from odoo.tools import float_compare
 
 
-class PlannerCase(SavepointCase):
+class PlannerCase(TransactionCase):
     @classmethod
     def setUpClass(cls):
         super(PlannerCase, cls).setUpClass()
+        cls.env = cls.env(
+            context=dict(
+                cls.env.context,
+                mail_create_nolog=True,
+                mail_create_nosubscribe=True,
+                mail_notrack=True,
+                no_reset_password=True,
+                tracking_disable=True,
+            )
+        )
         cls.mondays = cls.env["resource.calendar"].create(
             {
                 "name": "mondays",

@@ -9,6 +9,7 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo-addon-crm_claim>=15.0dev,<15.1dev',
+        'odoo-addon-crm_claim_code>=15.0dev,<15.1dev',
         'odoo-addon-crm_claim_type>=15.0dev,<15.1dev',
         'odoo-addon-crm_industry>=15.0dev,<15.1dev',
         'odoo-addon-crm_lead_code>=15.0dev,<15.1dev',
@@ -27,6 +28,7 @@ setuptools.setup(
         'odoo-addon-crm_security_group>=15.0dev,<15.1dev',
         'odoo-addon-crm_stage_probability>=15.0dev,<15.1dev',
         'odoo-addon-crm_won_reason>=15.0dev,<15.1dev',
+        'odoo-addon-crm_won_restrict_per_stage>=15.0dev,<15.1dev',
         'odoo-addon-marketing_crm_partner>=15.0dev,<15.1dev',
     ],
     classifiers=[
